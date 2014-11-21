@@ -1,19 +1,19 @@
 ﻿#pragma strict
 
-static var time:float;
+static var time : float;
 
 function Start () {
 
-	time=0;
+	time= 0;
 }
 
 function Update () {
 
 	//
-	if(GoalArea.goal==false)
+	if(GoalArea.goal== false )
 	{
 		//
-		time+=Time.deltaTime;
+		time += Time.deltaTime;
 	}
 	
 	//

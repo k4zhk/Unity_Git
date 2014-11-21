@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 	var style : GUIStyle;
-	var hightScore:int;
+	var highScore:int;
 	
 function Start () {
 	style.fontSize=40;
@@ -43,9 +43,8 @@ function OnGUI () {
 		if(GUI.Button(Rect(Screen.width/2 -120,350,
 			200,30),"GAME RETRY"))
 		{
-			Application.LoadLevel(Application.loadedLevel;
+			Application.LoadLevel(Application.loadedLevel);
 		}
 	}
 }
 			
-}
