@@ -53,6 +53,7 @@
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Free Pack\Metal Loop Pack\readme Unity.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
      <None Include="Assets\Free Pack\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
